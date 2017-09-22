@@ -4,7 +4,7 @@ from django.contrib import admin
 from .models import Signup
 
 class SignupAdmin(admin.ModelAdmin):
-    list_display = ["timestamp", "full_name", "email"]
+    list_display = ["full_name", "email", "timestamp"]
     class Meta:
         model = Signup
 
