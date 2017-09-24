@@ -26,6 +26,11 @@ SECRET_KEY = 'kl9(x4tr^0=ge(gn7gk7a*i25m1^v%b-a84&_r(&8-&bww+ne@'
 DEBUG = True
 
 ALLOWED_HOSTS = []
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_HOST_USER = 'yourgmail@gmail.com'
+# EMAIL_HOST_PASSWORD = 'yourgmailpassword'
+# EMAIL_PORT = 587
+# EMAIL_USE_TLS = True
 
 
 # Application definition
